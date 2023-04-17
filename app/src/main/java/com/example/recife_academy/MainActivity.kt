@@ -1,5 +1,6 @@
 package com.example.recife_academy
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         edButton.setOnClickListener{
             val texto = edNome.text.toString()
-            Toast.makeText(this,texto,Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,SegundaTelaActivity::class.java)
+            //Toast.makeText(this,texto,Toast.LENGTH_SHORT).show()
             intent.putExtra("intentNomeUsuario", edNome.text.toString())
             intent.putExtra("intentSenhaUsuario",edSenha.text.toString())
             startActivity(intent)
