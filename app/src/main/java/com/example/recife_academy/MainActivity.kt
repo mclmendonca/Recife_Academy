@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
         val edButton = binding.Botao
 
         edButton.setOnClickListener{
+            Toast.makeText(this,"Cadastro não encontrado",Toast.LENGTH_SHORT).show()
             val texto = edNome.text.toString()
             val intent = Intent(this,SegundaTelaActivity::class.java)
-            //Toast.makeText(this,texto,Toast.LENGTH_SHORT).show()
             intent.putExtra("intentNomeUsuario", edNome.text.toString())
             intent.putExtra("intentSenhaUsuario",edSenha.text.toString())
             startActivity(intent)
