@@ -118,6 +118,7 @@
         android:ems="10"
         android:hint=" (     ) Phone_Number"
         android:inputType="phone"
+        android:phoneNumber="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edEmail"
         app:layout_constraintHorizontal_bias="0.007"
