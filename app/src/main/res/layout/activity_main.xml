@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="138dp"
-        android:layout_height="148dp"
+        android:layout_width="112dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,8 +20,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="251dp"
-        android:layout_height="68dp"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
         android:fontFamily="@font/bungee"
         android:text="Recife Academy"
         android:textAlignment="center"
@@ -29,21 +29,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.279" />
 
     <EditText
         android:id="@+id/edNome"
-        android:layout_width="270dp"
-        android:layout_height="49dp"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:hint="Nome"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.094" />
 
@@ -55,20 +56,22 @@
         android:ems="10"
         android:hint="Senha"
         android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edNome"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="@+id/edNome"
-        app:layout_constraintTop_toBottomOf="@+id/edNome" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/Botao"
-        android:layout_width="184dp"
-        android:layout_height="92dp"
+        android:layout_width="142dp"
+        android:layout_height="77dp"
         android:hint="Login"
         android:text="LOGIN"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/edSenha"
-        app:layout_constraintStart_toStartOf="@+id/edSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.89" />
 

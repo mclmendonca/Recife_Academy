@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SegundaTelaActivity">
 
+
     <TextView
         android:id="@+id/NameAnt"
         android:layout_width="wrap_content"
@@ -13,11 +14,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.077" />
-
 
     <TextView
         android:id="@+id/textView3"
@@ -48,7 +48,7 @@
         android:layout_width="348dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:hint="Address"
+        android:hint="Endereço"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +61,7 @@
         android:layout_width="348dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:hint="District"
+        android:hint="Bairro"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edAdress"
@@ -103,7 +103,7 @@
         android:layout_width="181dp"
         android:layout_height="49dp"
         android:ems="10"
-        android:hint="City"
+        android:hint="Cidade"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edBairro"
@@ -117,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:ems="10"
-        android:hint=" (     ) Phone_Number"
+        android:hint=" (     ) Telefone"
         android:inputType="phone"
         android:phoneNumber="true"
         app:layout_constraintBottom_toBottomOf="parent"
