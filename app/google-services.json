@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815633164830",
+    "project_id": "recife-academy",
+    "storage_bucket": "recife-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815633164830:android:0481c80f9666aef5521c0f",
+        "android_client_info": {
+          "package_name": "com.example.recife_academy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815633164830-as783a0tp276pki3ajt2tlsctmrue07n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAouNUrX4GLsyDODoc6d5IuGNv2WLyMo-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815633164830-as783a0tp276pki3ajt2tlsctmrue07n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
